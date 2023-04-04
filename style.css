@@ -1,0 +1,35 @@
+.wrap{
+	display: flex;
+
+}
+
+.request{
+	display: flex;
+	flex-direction: column;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: red;
+	opacity: 1; /* Firefox */
+  }
+
+  .post{
+	display: flex;
+	flex-direction: column;
+  }
+
+  .start{
+	display: flex;
+	flex-direction: column;
+  }
+
+  .wrap{
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+  }
+
+  .currentComment{
+	border: 1px solid rgb(182, 207, 90);
+	margin: 1px 1px;
+  }
